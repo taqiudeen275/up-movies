@@ -1,0 +1,113 @@
+{% extends "base.html" %}{% load static %} {% block hero %}
+<div class="site-blocks-cover inner-page-cover overlay" style="background-image: url('{% static 'images/1.png' %}');" data-aos="fade" data-stellar-background-ratio="0.5" data-aos="fade">
+    <div class="container">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-md-7 text-center" data-aos="fade-up" data-aos-delay="400">
+                <p class="mb-4">Get your favourite Movies Here</p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock hero %} {% block content %}
+
+<div class="site-section">
+    <div class="container">
+        <div class="row">
+            <div class="site-section-heading text-center mb-5 w-border col-md-6 mx-auto">
+                <h2 class="mb-5">Movies</h2>
+                <p></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+                <a href="#" class="unit-9">
+                    <div class="image" style="background-image: url('{% static 'images/1.png' %}');"></div>
+                    <div class="unit-9-content">
+                        <h2>This Is The Day</h2>
+                        <span>Friday 1:00pm &mdash; 2:30pm</span>
+                        <span>with Wendy Matos</span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+                <a href="#" class="unit-9">
+                    <div class="image" style="background-image: url('{% static 'images/1.png' %}');"></div>
+                    <div class="unit-9-content">
+                        <h2>Electro Party</h2>
+                        <span>Friday 1:00pm &mdash; 2:30pm</span>
+                        <span>with Gaby Tenda</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+                <a href="#" class="unit-9">
+                    <div class="image" style="background-image: url('{% static 'images/1.png' %}');"></div>
+                    <div class="unit-9-content">
+                        <h2>Classic Hits</h2>
+                        <span>Friday 1:00pm &mdash; 2:30pm</span>
+                        <span>with James Tenda</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="400">
+                <a href="#" class="unit-9">
+                    <div class="image" style="background-image: url('{% static 'images/1.png' %}');"></div>
+                    <div class="unit-9-content">
+                        <h2>Classic Songs</h2>
+                        <span>Friday 1:00pm &mdash; 2:30pm</span>
+                        <span>with Troy Peters</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="site-section">
+
+    <div class="container">
+
+        <div class="row">
+            <div class="site-section-heading text-center mb-5 w-border col-md-6 mx-auto" data-aos="fade-up">
+                <h2 class="mb-5">TV Series</h2>
+
+            </div>
+        </div>
+
+        <div class="site-block-retro d-block d-md-flex">
+
+            <a href="#" class="col1 unit-9 no-height" data-aos="fade-up" data-aos-delay="100">
+                <div class="image" style="background-image: url('{% static 'images/1.png' %}');"></div>
+                <div class="unit-9-content">
+                    <h2>Classic Songs For Classic People</h2>
+                    <span>Friday 1:00pm &mdash; 2:30pm</span>
+                </div>
+            </a>
+
+            <div class="col2 ml-auto">
+
+                <a href="#" class="col2-row1 unit-9 no-height" data-aos="fade-up" data-aos-delay="200">
+                    <div class="image" style="background-image: url('{% static 'images/1.png' %}');"></div>
+                    <div class="unit-9-content">
+                        <h2>Classic Songs For Classic People</h2>
+                        <span>Friday 1:00pm &mdash; 2:30pm</span>
+                    </div>
+                </a>
+
+                <a href="#" class="col2-row2 unit-9 no-height" data-aos="fade-up" data-aos-delay="300">
+                    <div class="image" style="background-image: url('{% static 'images/1.png' %}');"></div>
+                    <div class="unit-9-content">
+                        <h2>Classic Songs For Classic People</h2>
+                        <span>Friday 1:00pm &mdash; 2:30pm</span>
+                    </div>
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+{% endblock content %}
